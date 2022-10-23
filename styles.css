@@ -1,0 +1,93 @@
+/*CSS for my first site*/
+body{
+    background-color: #c5d5cb;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: Baskerville, Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: rgb(26, 28, 171)
+}
+
+.input-request-CV{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: rgba(26, 28, 171)
+}
+
+.my-bio{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: rgba(26, 28, 171)
+}
+
+.hear-about-me{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: rgba(26, 28, 171)
+}
+
+.me-sections{
+    display: flex;
+    width: 80%;
+    height: 900px;
+    flex-flow: wrap;
+}
+
+.bio-card {
+    display: flex;
+    height: 200px;
+    width: 60%;
+    background-color: white;
+    flex-direction: column;
+    margin: 10px;
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+    border-radius: 40%;
+    text-align: center;
+}
+.bio-card-text{
+    display: flex;
+    width: 450px;
+    padding-left: 125px;
+    text-align: justify;
+    padding-top: 15px;
+    font-size: larger;
+
+
+}
+.me-img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+#chess-img{
+    align-self: flex-start;
+}
+#ESP-img{
+    align-self: flex-end;
+}
+#UKR-img{
+    align-self: flex-start;
+}
+#ENG-img{
+    align-self: flex-start;
+}
+
+#positions:hover{
+    color: red;
+}
+
+
+
+/* height: 100vh means 100% of the viewport height....what is an svg image? */
+/* to give padding to an a element you need to display it as a block... */
+/* position attribute is very important - allows you to mess with the position of something, possibly relevant to
+something else*/
